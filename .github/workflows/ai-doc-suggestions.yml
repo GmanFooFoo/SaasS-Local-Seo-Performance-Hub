@@ -1,0 +1,19 @@
+name: AI Doc Suggestions
+
+on:
+  pull_request:
+    types: [opened, synchronize, reopened]
+
+jobs:
+  ai-doc-suggestions:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+      - name: AI Doc Suggestion
+        uses: openai/openai-codereview@v1
+        with:
+          github-token: ${{ secrets.GITHUB_TOKEN }}
+          openai-api-key: ${{ secrets.OPENAI_API_KEY }}
+          prompt: |
+            Review the code changes in this PR. If you see code changes that should be reflected in the documentation (Markdown files, docstrings, or comments), suggest what and where to update. If everything is documented, say so. Reply in markdown.

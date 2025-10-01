@@ -1,63 +1,46 @@
 
-# Local SEO Performance Hub – MVP
 
-## Overview
-Local SEO Performance Hub is a SaaS platform that helps local businesses track and improve their **online visibility** in one place.  
+# Local SEO Performance Hub
 
-The MVP delivers a **Visibility Score (0–100)** based on:
-- Local keyword rankings
-- Google reviews
-- Directory/citation listings
+## 🚀 Overview
+Local SEO Performance Hub is an AI-first SaaS platform to help local businesses and agencies track and improve their online visibility in one place.
 
-Target users:
-- Local SMBs (dentists, lawyers, plumbers, med spas, restaurants)
-- Agencies managing multiple local SEO clients
+- **Visibility Score (0–100)**: Combines rankings, reviews, and citations.
+- **Target users**: Local SMBs and agencies managing multiple clients.
 
 ---
 
-## Problem It Solves
-Today, SMBs need 3–5 different tools just to answer one question:  
-**“Are we visible locally?”**
+## 📋 Table of Contents
 
-- Rank tracking is one tool.  
-- Review monitoring is another.  
-- Citations are somewhere else.  
-- Reports take hours every month.  
-
-Local SEO Performance Hub bundles these into a **single dashboard + weekly report**.
-
----
-
-## MVP Goals
-- Deliver a **Visibility Score** dashboard.  
-- Track up to **10 keywords** per location.  
-- Pull reviews from Google Business Profile.  
-- Check listings on top 5 directories.  
-- Send a simple weekly PDF/email report.  
-
-Success = 10 paying beta users (€49–97/month) within 6–8 weeks.
+- [AI-First Philosophy & Features](docs/ai/ai_overview.md)
+- [AI Architecture](docs/ai/ai_architecture.md)
+- [AI Use Cases](docs/ai/ai_use_cases.md)
+- [AI Ethics](docs/ai/ai_ethics.md)
+- [AI Roadmap](docs/ai/ai_roadmap.md)
+- [System Architecture](docs/architecture/system_overview.md)
+- [API Design](docs/architecture/api_design.md)
+- [DevOps & CI/CD](docs/devops/ci_cd.md)
+- [Branch Protection](docs/conventions/branch_protection.md)
+- [Git Workflows](docs/conventions/git_workflows.md)
+- [Coding Standards](docs/conventions/coding_standards.md)
+- [Testing](docs/conventions/testing.md)
+- [Technical Planning](docs/planning/plan_technical.md)
+- [Changelog](docs/changelog/CHANGELOG.md)
+- [Pitch Deck](assets/pitch_deck/pitch_deck.md)
 
 ---
 
-## Repository Structure
-This repo is for **business development and documentation only**.  
-It does not yet include production code.
+## 🧭 Getting Started
 
-/docs
-├── business_plan.md # Monetization model, pricing tiers
-├── growth_strategy.md # ICPs, funnels, go-to-market
-├── mvp_specification.md # Functional + technical MVP scope
-├── competitor_analysis.md # BrightLocal, BirdEye, Yext, etc.
-├── compliance_notes.md # GDPR, API usage, international differences
-└── roadmap.md # High-level milestones & timeline
-/assets
-├── logos/ # Draft logo ideas, brand assets
-├── pitch_deck/ # Slides for investors or partners
-└── screenshots/ # Mockups, UI wireframes
+- See [docs/planning/plan_technical.md](docs/planning/plan_technical.md) for automation and workflow details.
+- For contributing, read [CONTRIBUTING.md](CONTRIBUTING.md).
+- For license info, see [LICENSE.md](LICENSE.md).
 
-/README.md # Project overview (this file)
+---
 
-## Pitch Deck
+## 🤖 AI-First Approach
+
+This project is designed with AI at its core. See the [AI documentation](docs/ai/ai_overview.md) for vision, architecture, and use cases.
 See `/assets/pitch_deck/pitch_deck.md` for the latest investor/partner slides.
 
 ## Contributing & License

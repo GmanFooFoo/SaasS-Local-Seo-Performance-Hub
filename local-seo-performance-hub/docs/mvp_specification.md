@@ -1,7 +1,7 @@
 # MVP Specification – Local SEO Performance Hub
 
 ## 1. Objective
-Deliver a working SaaS MVP that provides **local businesses** with a single **Visibility Score (0–100)** derived from rankings, reviews, and citations.  
+Deliver a working SaaS MVP that provides **local businesses** with a single **Visibility Score (0–100)** derived from rankings, reviews, and citations.
 Goal: Validate willingness to pay and collect feedback from early adopters (dentists, lawyers, plumbers, etc.).
 
 ---
