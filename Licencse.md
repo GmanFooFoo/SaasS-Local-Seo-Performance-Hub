@@ -1,127 +1,25 @@
+MIT License
 
-## Getting Started
-1. Review the MVP scope in `/docs/mvp_specification.md`.
-2. Add content to the business and go-to-market documents in `/docs`.
-3. Use `/assets/pitch_deck/pitch_deck.md` to build your investor/partner deck.
+Copyright (c) 2025 GmanFooFoo
 
-## Contributing & License
-- Please read **[CONTRIBUTING.md](CONTRIBUTING.md)** before opening PRs or adding documents.
-- Licensed under the **MIT License**. See **[LICENSE.md](LICENSE.md)**.
-EOF
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
 
-# Documentation stubs
-cat << 'EOF' > docs/mvp_specification.md
-# MVP Specification – Local SEO Performance Hub
-(See full spec document)
-EOF
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
 
-cat << 'EOF' > docs/business_plan.md
-# Business Plan
-- Monetization model
-- Pricing tiers
-- Revenue projections
-EOF
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
 
-cat << 'EOF' > docs/growth_strategy.md
-# Growth Strategy
-- ICP (ideal customer profile)
-- Free scan funnel
-- Content & partnerships
-EOF
+---
 
-cat << 'EOF' > docs/competitor_analysis.md
-# Competitor Analysis
-- BrightLocal
-- BirdEye
-- Yext
-- Other tools
-EOF
-
-cat << 'EOF' > docs/compliance_notes.md
-# Compliance Notes
-- GDPR considerations (EU data residency, lawful basis, DPA)
-- API usage restrictions (Google Business Profile, SERP APIs)
-- International differences (DE/EU vs. US/UK directories)
-EOF
-
-cat << 'EOF' > docs/roadmap.md
-# Roadmap
-## Phase 1 – MVP
-## Phase 2 – Feature expansion
-## Phase 3 – Agency mode
-## Phase 4 – Internationalization
-EOF
-
-# Pitch deck skeleton
-cat << 'EOF' > assets/pitch_deck/pitch_deck.md
-# Local SEO Performance Hub – Pitch Deck
-
-## Slide 1 – Title
-- Company name & logo
-- Tagline: "The Credit Score for Local SEO"
-
-## Slide 2 – Problem
-- Local SMBs struggle with scattered SEO tools
-- Owners cannot answer: *"Are we getting found?"*
-- Multiple subscriptions, wasted time
-
-## Slide 3 – Solution
-- One dashboard, one score: Visibility Score (0–100)
-- Combines rankings + reviews + citations
-- Saves hours, easy to understand
-
-## Slide 4 – Product Demo (Concept)
-- Screenshot/wireframe of dashboard
-- Example: Dentist in Berlin with 64/100 score
-
-## Slide 5 – Market Opportunity
-- SMBs in Germany/EU + International
-- Agencies serving local clients
-- TAM/SAM/SOM estimates
-
-## Slide 6 – Business Model
-- Subscription tiers (SMB / Agency)
-- Add-ons (AI review replies, competitor tracking)
-
-## Slide 7 – Go-To-Market
-- Free scan funnel
-- Agency partnerships
-- LinkedIn content strategy
-
-## Slide 8 – Competitive Landscape
-- BrightLocal, BirdEye, Yext
-- Why Local SEO Performance Hub wins
-
-## Slide 9 – Roadmap
-- Phase 1: MVP in Germany
-- Phase 2: Agencies & white-label
-- Phase 3: International expansion
-
-## Slide 10 – Team
-- Founders & advisors (placeholders)
-- Expertise in SEO, SaaS, and automation
-
-## Slide 11 – Call to Action
-- "Join us in building the Credit Score for Local SEO"
-- Contact details
-EOF
-
-# CONTRIBUTING
-cat << 'EOF' > CONTRIBUTING.md
-# Contributing Guidelines
-
-## 1. Scope of This Repository
-This repository currently contains **business development and documentation** only (no app code). Focus contributions on:
-- Strategy docs (`/docs`)
-- Pitch materials (`/assets/pitch_deck`)
-- Market/competitor research
-- Compliance notes (GDPR, APIs)
-
-## 2. How to Contribute
-1. Open an Issue describing the change (template: problem → proposal → impact).
-2. Create a feature branch:
-   - `docs/<topic>-<short-desc>` (e.g., `docs/growth-funnel-v1`)
-3. Submit a Pull Request with:
-   - Summary of changes
-   - Checklist: spelling, links, file paths, headings
-   - Reference to r
+This project is part of the Local SEO Performance Hub SaaS documentation and business planning suite. For contributing guidelines, see CONTRIBUTING.md.

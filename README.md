@@ -1,16 +1,15 @@
-
-
 # Local SEO Performance Hub
 
 ## 🚀 Overview
-Local SEO Performance Hub is an AI-first SaaS platform to help local businesses and agencies track and improve their online visibility in one place.
+Local SEO Performance Hub is an **AI-first SaaS platform** empowering local businesses and agencies to track and improve their online visibility—all in one place.
 
-- **Visibility Score (0–100)**: Combines rankings, reviews, and citations.
-- **Target users**: Local SMBs and agencies managing multiple clients.
+- **Visibility Score (0–100):** Combines rankings, reviews, and citations for a holistic view.
+- **Target users:** Local SMBs and agencies managing multiple clients.
+- **AI-First:** Automation, smart suggestions, and documentation powered by AI.
 
 ---
 
-## 📋 Table of Contents
+## 📚 Documentation & Resources
 
 - [AI-First Philosophy & Features](docs/ai/ai_overview.md)
 - [AI Architecture](docs/ai/ai_architecture.md)
@@ -32,17 +31,32 @@ Local SEO Performance Hub is an AI-first SaaS platform to help local businesses 
 
 ## 🧭 Getting Started
 
-- See [docs/planning/plan_technical.md](docs/planning/plan_technical.md) for automation and workflow details.
-- For contributing, read [CONTRIBUTING.md](CONTRIBUTING.md).
-- For license info, see [LICENSE.md](LICENSE.md).
+1. **Read the [Technical Plan](docs/planning/plan_technical.md)** for automation, workflow, and architecture details.
+2. **See [CONTRIBUTING.md](CONTRIBUTING.md)** for how to propose changes, open issues, or submit PRs.
+3. **Review [LICENSE.md](LICENSE.md)** for licensing information.
 
 ---
 
 ## 🤖 AI-First Approach
 
-This project is designed with AI at its core. See the [AI documentation](docs/ai/ai_overview.md) for vision, architecture, and use cases.
-See `/assets/pitch_deck/pitch_deck.md` for the latest investor/partner slides.
+This project is designed with AI at its core:
+- Automated documentation and suggestions
+- Smart workflows and code review
+- AI-driven features for users and contributors
 
-## Contributing & License
+See the [AI documentation](docs/ai/ai_overview.md) for vision, architecture, and use cases.
+
+---
+
+## 💡 Contributing
+
+We welcome contributions from the community!
 - Please read [CONTRIBUTING.md](CONTRIBUTING.md) before opening PRs or adding documents.
-- Licensed under the MIT License. See [LICENSE.md](LICENSE.md).
+- Follow branch naming and commit message conventions.
+- All contributions are subject to review and must pass CI checks.
+
+---
+
+## 📄 License
+
+Licensed under the MIT License. See [LICENSE.md](LICENSE.md).

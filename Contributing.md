@@ -1,86 +1,68 @@
-#!/bin/bash
-# setup_local_seo_repo.sh
-# Script to create the initial folder structure for Local SEO Performance Hub (business docs only)
+# Contributing to Local SEO Performance Hub
 
-# Root folder
-mkdir -p local-seo-performance-hub
-cd local-seo-performance-hub || exit
+Thank you for your interest in contributing to the Local SEO Performance Hub project! This document outlines the process for contributing, our standards, and best practices.
 
-# Main folders
-mkdir -p docs assets/logos assets/pitch_deck assets/screenshots
+## Table of Contents
+- [How to Contribute](#how-to-contribute)
+- [Code of Conduct](#code-of-conduct)
+- [Reporting Issues](#reporting-issues)
+- [Pull Requests](#pull-requests)
+- [Branching & Commit Messages](#branching--commit-messages)
+- [Documentation Guidelines](#documentation-guidelines)
+- [Code Style](#code-style)
+- [AI Documentation](#ai-documentation)
+- [License](#license)
 
-# Create README
-cat << 'EOF' > README.md
-# Local SEO Performance Hub – MVP
+---
 
-## Overview
-This repository contains the **business development and documentation** for the MVP of the Local SEO Performance Hub SaaS project.
+## How to Contribute
 
-👉 This repo does not contain production code yet. It focuses on:
-- MVP specification
-- Business plan
-- Growth strategy
-- Competitor analysis
-- Compliance considerations
-- Roadmap and milestones
-EOF
+1. **Fork the repository** and clone it locally.
+2. **Create a new branch** for your feature, fix, or documentation update:
+	- Use the format: `feature/your-feature`, `bugfix/your-fix`, `docs/your-doc`, or `chore/your-task`.
+3. **Make your changes** with clear, descriptive commit messages.
+4. **Push your branch** and open a Pull Request (PR) against `main`.
+5. **Participate in code review** and address any feedback.
 
-# Create documentation files
-cat << 'EOF' > docs/mvp_specification.md
-# MVP Specification – Local SEO Performance Hub
-(See full spec document)
-EOF
+## Code of Conduct
+Please read and follow our [Code of Conduct](CODE_OF_CONDUCT.md) to foster a welcoming and respectful community.
 
-cat << 'EOF' > docs/business_plan.md
-# Business Plan
-- Monetization model
-- Pricing tiers
-- Revenue projections
-EOF
+## Reporting Issues
 
-cat << 'EOF' > docs/growth_strategy.md
-# Growth Strategy
-- ICP (ideal customer profile)
-- Free scan funnel
-- Content & partnerships
-EOF
+- Search existing [issues](https://github.com/GmanFooFoo/SaasS-Local-Seo-Performance-Hub/issues) before opening a new one.
+- Provide clear, descriptive titles and detailed information.
+- Include steps to reproduce, expected behavior, and screenshots if relevant.
 
-cat << 'EOF' > docs/competitor_analysis.md
-# Competitor Analysis
-- BrightLocal
-- BirdEye
-- Yext
-- Other tools
-EOF
+## Pull Requests
 
-cat << 'EOF' > docs/compliance_notes.md
-# Compliance Notes
-- GDPR considerations
-- API usage restrictions
-- International differences (EU vs US market)
-EOF
+- Ensure your branch is up to date with `main` before opening a PR.
+- Reference related issues in your PR description (e.g., `Closes #123`).
+- Add tests or documentation as needed.
+- PRs require at least one approving review before merging (see branch protection rules).
 
-cat << 'EOF' > docs/roadmap.md
-# Roadmap
-## Phase 1 – MVP
-## Phase 2 – Feature expansion
-## Phase 3 – Agency mode
-## Phase 4 – Internationalization
-EOF
+## Branching & Commit Messages
 
-# Gitignore
-cat << 'EOF' > .gitignore
-# Ignore system files
-.DS_Store
-Thumbs.db
+- Branch names: `feature/*`, `bugfix/*`, `docs/*`, `chore/*`.
+- Commit messages: Use [Conventional Commits](https://www.conventionalcommits.org/) (e.g., `feat: add new feature`, `fix: correct typo`).
+- Keep commits focused and atomic.
 
-# Ignore temporary files
-*.tmp
-*.bak
+## Documentation Guidelines
 
-# Ignore design software files
-assets/**/*.psd
-assets/**/*.ai
-EOF
+- All documentation should be clear, concise, and use Markdown.
+- Update relevant docs for any user-facing or architectural changes.
+- Place business docs in `local-seo-performance-hub/docs/` and technical/AI docs in `docs/`.
 
-echo "✅ Local SEO Performance Hub repo structure created successfully."
+## Code Style
+
+- Follow the language-specific style guides and linters.
+- Remove trailing whitespace and ensure files end with a newline.
+- Use descriptive variable and function names.
+
+## AI Documentation
+
+- Contribute to the AI-first documentation in the `docs/ai/` directory.
+- Follow the structure and standards outlined in `docs/ai/ai_overview.md` and related files.
+
+## License
+
+By contributing, you agree that your contributions will be licensed under the repository’s [LICENSE](LICENSE.md).
